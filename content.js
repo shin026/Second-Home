@@ -55,14 +55,14 @@ const SITE = {
   friends: [
     { name: "Thea", photo: "images/Thea.jpg",
       preview: "I don't think I say this enough, but...",
-      letter: "I don't think I say this enough, but I'm genuinely grateful that life allowed our paths to cross. Thank you for being part of my ordinary days and turning them into memories I know I'll miss someday.\n\nMaybe life will take us in different directions, and maybe we won't always have the same amount of time for each other. But I hope that whenever we look back, we remember that we had something real here.\n\nAnd no matter where life takes us, a part of me will always be grateful that I got to experience this chapter with you.\n\n[Your name]" },
+      letter: "nag-iisip pa wait lang" },
     { name: "Maem Kath", photo: "images/Kath.jpg",
-      preview: "Thank you for showing up, even on the boring days...",
-      letter: "Thank you for showing up, even on the boring days. Honestly those are the ones I'll remember most. [Add one specific thing they did for you.]\n\nYou make things lighter without even trying, and I don't think you know how much that has mattered.\n\nWhen life gets busy, I hope we still text, still meet up, still say 'remember when'. I'd really like that.\n\n[Your name]" },
+      preview: "Thank you for showing up, blah blah...",
+      letter: "madami ka nang nagawa samen, nag-iisp pa ko kung anong ilalagay dito" },
     
 { name: "Bry", photo: "images/Bry.jpg",
-  preview: "Somehow you always knew when I needed you...",
-  letter: "Somehow you always knew when I needed someone, and you never made a big deal out of it. [Add a real memory here.]\n\nI'm glad we got to grow up a little alongside each other. I hope we keep doing that, wherever we end up.\n\n[Your name]" },
+  preview: "one of the best...",
+  letter: "Di pa tapos wait lang hahahahaha " },
 
 { name: "Kiann", photo: "images/Kiann.jpg",
   preview: "Somehow we've become friends because of a purpose...",
