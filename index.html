@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Little Piece of Forever</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#story">Skip to content</a>
+<header class="nav">
+  <a href="#top" id="brand" class="brand"></a>
+  <nav aria-label="Sections">
+    <a href="#story">Story</a><a href="#moments">Moments</a><a href="#letters">Letters</a>
+    <a href="#jokes">Jokes</a><a href="#words">Words</a><a href="#capsule">Capsule</a>
+  </nav>
+  <button id="music" class="music" type="button" aria-pressed="false">♪ Music off</button>
+</header>
+<main id="top">
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="heroBg" aria-hidden="true"></div>
+    <div class="hero-in">
+      <p class="hand">this is our little corner of the world</p>
+      <h1>Some people turn ordinary days into memories worth keeping forever.</h1>
+      <p class="sub">For the laughs that came out of nowhere, the conversations that lasted longer than expected, the chaos only we understand, and the people who made it all mean something.</p>
+      <button class="btn" id="enter" type="button">ENTER OUR MEMORIES</button>
+      <p class="hand note">made with love, for us.</p>
+    </div>
+    <div class="scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <section id="story" class="sec">
+    <h2 class="rv">How it all became us</h2>
+    <p class="lede rv">Somewhere between the random conversations, the unplanned adventures, and the moments that seemed insignificant at the time, we became something worth remembering.</p>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section id="moments" class="sec tint">
+    <h2 class="rv">The little things were everything</h2>
+    <div class="tabs" id="tabs" role="group" aria-label="Memory albums"></div>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section id="letters" class="sec">
+    <h2 class="rv">Things I hope you know</h2>
+    <p class="lede rv">Tap a letter to open it.</p>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="jokes" class="sec jokes">
+    <h2 class="rv">No one else would understand</h2>
+    <p class="lede rv">Tap a card for the full story.</p>
+    <div class="jgrid" id="jgrid"></div>
+  </section>
+
+  <section id="words" class="sec">
+    <h2 class="rv">If I could describe us</h2>
+    <div class="journal" id="journal"></div>
+  </section>
+
+  <section id="capsule" class="sec dark">
+    <h2 class="rv">To the versions of us who will someday look back at this.</h2>
+    <button class="envelope" id="env" type="button" aria-expanded="false" aria-controls="paper">
+      <span class="flap"></span><span class="seal">open</span>
+    </button>
+    <article class="paper" id="paper" hidden></article>
+  </section>
+
+  <section class="finale" id="finale">
+    <div class="hero-bg" id="finBg" aria-hidden="true"></div>
+    <div class="hero-in">
+      <p class="hand">if we ever forget</p>
+      <h2 id="finHead"></h2>
+      <p class="sub" id="finText"></p>
+      <p class="closing" id="finClose"></p>
+      <button class="btn" id="top-btn" type="button">BACK TO THE BEGINNING</button>
+    </div>
+  </section>
+</main>
+
+<dialog id="lb" aria-label="Photo viewer">
+  <button class="x" id="lbClose" type="button" aria-label="Close">×</button>
+  <button class="nv prev" id="lbPrev" type="button" aria-label="Previous photo">‹</button>
+  <figure id="lbFig"></figure>
+  <button class="nv next" id="lbNext" type="button" aria-label="Next photo">›</button>
+</dialog>
+<dialog id="letter" aria-label="Letter">
+  <button class="x" id="lt-close" type="button" aria-label="Close letter">×</button>
+  <div id="ltBody"></div>
+</dialog>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
