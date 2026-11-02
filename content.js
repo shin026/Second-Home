@@ -45,8 +45,10 @@ const SITE = {
       { src: "", caption: "[Caption]", date: "", place: "", note: "[note]" }
     ],
     "Just Us Being Us": [
-      { src: "", caption: "[Caption]", date: "", place: "", note: "" },
-      { src: "", caption: "[Caption]", date: "[Date]", place: "", note: "[note]" }
+      { src: "images/photo14.jpg", caption: "[Caption]", date: "", place: "", note: "" },
+      { src: "images/photo12.jpg", caption: "[Caption]", date: "[Date]", place: "", note: "[note]" },
+      { src: "images/photo13.jpg", caption: "[Caption]", date: "", place: "", note: "" },
+      { src: "images/photo15.jpg", caption: "[Caption]", date: "[Date]", place: "", note: "[note]" }
     ]
   },
 
